@@ -2,6 +2,7 @@ Deep Learning project using Tensorflow
 Problem statement: Identifying the breed of dog based on the image input of dog
 Dataset: Dataset is used from kaggle website
 Evaluation: Evaluation is file with prediction probability for each dog breed of each test image
+Model Used: "https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/4"
 Steps:
 Getting Data Insights
   Importing required libraries.
