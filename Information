@@ -31,7 +31,7 @@ Prediction and Visualisation
     Made prediction and visualised if predicted value matches with true value.
 Saved model.
 Trained the saved model on full data and got accuracy of 99.91 with loss value 0.0085
-Returned ouput in the form the breed id and prediction probability of each breed.
+Returned output in the form the breed id and prediction probability of each breed.
   
   
 
