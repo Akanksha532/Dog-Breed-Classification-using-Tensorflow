@@ -1,1 +1,37 @@
-It takes the image as input and gives tells the breed of the dog
+Deep Learning project using Tensorflow
+Problem statement: Identifying the breed of dog based on the image input of dog
+Dataset: Dataset is used from kaggle website
+Evaluation: Evaluation is file with prediction probability for each dog breed of each test image
+Steps:
+Getting Data Insights
+  Importing required libraries.
+  Reading data using `pd.read_csv`
+  getting data insight
+  Displayed imapge using `IPython, Image`
+  Found Uniques breeds
+  Converted breeds into boolean array
+  Created own validation dataset
+Image Processing
+  Converted images into tensors
+  Preproceesed the images ( resize, channels manipulation)
+Created Data Batches
+  Shuffles the training data but not validation data.
+  Visualizing Images
+Building a Model
+  Imported Sequential model from tf.keras
+  Activation function used: 'Softmax'
+  Compiled model:
+                losses=CategoricalCrossEntropy,
+                optimizer="Adam",
+                metrics used ="accuracy
+
+    Used TensorBoard CallBacks for monitoring training process
+    Trained model in small set of data 
+Prediction and Visualisation
+    Made prediction and visualised if predicted value matches with true value.
+Saved model.
+Trained the saved model on full data and got accuracy of 99.91 with loss value 0.0085
+Returned ouput in the form the breed id and prediction probability of each breed.
+  
+  
+
